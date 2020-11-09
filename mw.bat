@@ -34,7 +34,7 @@ echo 5 = Release IP
 echo 6 = Renew IP
 echo 7 = Reset Socket
 echo 8 = Perform All Actions
-echo 9 = Perform All Actions and Create a log.txt
+echo 9 = Perform All Actions and Create a log.txt at current path
 echo E or e = Exit
 echo ---------------------------
 echo ---------------------------
@@ -107,7 +107,6 @@ ipconfig /release
 ipconfig /renew
 netsh winsock reset
 echo All Done... Closing in 3 Seconds....
-echo log.txt file created at current path...
 goto start
 )
 
